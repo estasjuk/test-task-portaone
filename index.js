@@ -7,7 +7,6 @@ const performanseObserver = new perf_hooks.PerformanceObserver((items, observer)
     console.log(`Execution time: ${entry.duration} ms`);
     observer.disconnect();
 });
-
 performanseObserver.observe({ entryTypes: ['measure', 'function'] });
 
 let getUniqueValue = (file) => {
