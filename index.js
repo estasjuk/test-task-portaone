@@ -17,7 +17,7 @@ let getUniqueValue = (file) => {
     const result = uniqueSymbolInEachWord.find((element, _, array) => array.indexOf(element) === array.lastIndexOf(element));
     if (!result) {
         console.log("The unique symbol is absent in this file");
-    } else console.log(result);
+    } else console.log(`The unique value is: ${result}`);
 };
 
 getUniqueValue = perf_hooks.performance.timerify(getUniqueValue);
