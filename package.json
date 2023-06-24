@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/estasjuk/test-task-portaone/issues"
   },
-  "homepage": "https://github.com/estasjuk/test-task-portaone#readme"
+  "homepage": "https://github.com/estasjuk/test-task-portaone#readme",
+  "dependencies": {
+    "perf_hooks": "^0.0.1"
+  }
 }
