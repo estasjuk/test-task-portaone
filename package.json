@@ -1,0 +1,19 @@
+{
+  "name": "test-task-portaone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estasjuk/test-task-portaone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/estasjuk/test-task-portaone/issues"
+  },
+  "homepage": "https://github.com/estasjuk/test-task-portaone#readme"
+}
